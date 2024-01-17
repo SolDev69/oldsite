@@ -1,0 +1,24 @@
+/* https://github.com/code913/snippets/blob/main/css/reset.scss */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-family: apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+    font-size: clamp(16px, 2.5vmin, 32px);
+    font-weight: 400;
+    font-display: swap;
+}
+
+body {
+    line-height: 1.6875;
+    min-height: 100vh;
+}
+
+body p:not(:last-child) {
+    margin-block-end: 1.6875em;
+}
