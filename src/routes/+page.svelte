@@ -6,7 +6,7 @@
 </svelte:head>
 
 <p>
-    Hello, you're probably looking for this: <a href="downloads">new archive</a>
+    Hello, you're probably looking for this: <a href="/neokru/downloads">new archive</a>
 </p>
 
 <style>
