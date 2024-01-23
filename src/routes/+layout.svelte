@@ -10,7 +10,7 @@
 
 <header>
     <nav>
-        <a class="brand" href="/">NeoKru</a>
+        <a class="brand" href="/neokru/">NeoKru</a>
         <!-- svelte-ignore a11y-click-events-have-key-events -->
         <!-- svelte-ignore a11y-no-static-element-interactions -->
         <md-outlined-icon-button aria-label="Toggle navigation" on:click={() => (navShown = !navShown)}>
@@ -21,7 +21,7 @@
             >
         </md-outlined-icon-button>
         <ul class="links" class:shown={navShown}>
-            {#each [["/", "Home"], ["/downloads", "Mods"], ["/wiki", "Wiki"]] as [href, display]}
+            {#each [["/neokru/", "Home"], ["/neokru/downloads", "Mods"], ["/neokru/wiki", "Wiki"]] as [href, display]}
                 <li><a {href}>{display}</a></li>
             {/each}
         </ul>
