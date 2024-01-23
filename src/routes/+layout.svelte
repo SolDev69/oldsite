@@ -10,7 +10,7 @@
 
 <header>
     <nav>
-        <a class="brand" href="/neokru/">NeoKru</a>
+        <a class="brand" href="/">NeoKru</a>
         <!-- svelte-ignore a11y-click-events-have-key-events -->
         <!-- svelte-ignore a11y-no-static-element-interactions -->
         <md-outlined-icon-button aria-label="Toggle navigation" on:click={() => (navShown = !navShown)}>
